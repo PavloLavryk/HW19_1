@@ -23,7 +23,7 @@ jobs:
           architecture: x64
 
       - name: Build with Gradle
-        run: gradle build
+        run: build.gradle
 
       - name: Run tests
-        run: gradle test
+        run: build.gradle
