@@ -22,8 +22,5 @@ jobs:
           distribution: 'adopt'
           architecture: x64
 
-      - name: Build with Gradle
-        run: ./gradlew build
-
       - name: Run tests
         run: ./gradlew test
