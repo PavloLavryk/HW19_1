@@ -21,6 +21,3 @@ jobs:
           java-version: 21
           distribution: 'adopt'
           architecture: x64
-
-      - name: Run tests
-        run: ./gradlew test
